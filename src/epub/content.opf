@@ -37,13 +37,16 @@
 		<meta property="se:subject">TAG</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"><![CDATA[
+		<meta id="long-description" property="se:long-description" refines="#description">
 			LONGDESCRIPTION
-		]]></meta>
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>LINK</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>http://people.umass.edu/klement/tlp/tlp.html</dc:source>
+		<dc:source>https://archive.org/details/in.ernet.dli.2015.218527</dc:source>
+		<meta property="se:production-notes">The highly idiosyncratic numbering system in this work poses a special challenge to markup and CSS. Because some subitems are 0-indexed and others not, we can't use CSS counters. Ideally we would mark things up semantically in a series of nested `ol` and `li` elements; but without modern CSS like CSS grids, positioning the numbers becomes impossible. (epub cannot use position: abolute; and Kindle does not support display: table;) Ideally we might give each `li` element a `data-index` attribute containing the decimal string, and fill a ::before element with that value. But, at the time of ebook production, Kindle doesn't support attr() CSS. So, we use a plain table, for the time being.
+
+		The notation for equations posed a considerable problem. Wittgenstein's notation is unlike modern notation, and thus it was difficult to attempt to give semantice MathML meaning to the underlying equations. Thus, they have been rendered in presentational MathML. Semantic grouping has been attempted with `mrow` elements but these should not be considered authoritative, or even correct. Regardless of the underlying semantics, the MathML should render identically.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus</meta>
@@ -84,16 +87,32 @@
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+		<item href="images/illustration-1.svg" id="illustration-1.svg" media-type="image/svg+xml"/>
+		<item href="images/illustration-2.svg" id="illustration-2.svg" media-type="image/svg+xml"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/dedication.xhtml" id="dedication.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/epigraph.xhtml" id="epigraph.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml" properties="mathml"/>
+		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/tractatus-logico-philosophicus.xhtml" id="tractatus-logico-philosophicus.xhtml" media-type="application/xhtml+xml" properties="mathml svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="introduction.xhtml"/>
+		<itemref idref="dedication.xhtml"/>
+		<itemref idref="epigraph.xhtml"/>
+		<itemref idref="preface.xhtml"/>
+		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="tractatus-logico-philosophicus.xhtml"/>
+		<itemref idref="endnotes.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
