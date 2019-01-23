@@ -30,11 +30,11 @@
 		<link href="onix.xml" rel="onix-record"/>
 		<dc:title id="title">Tractatus Logico-Philosophicus</dc:title>
 		<meta property="file-as" refines="#title">Tractatus Logico-Philosophicus</meta>
-		<dc:subject id="subject-1">SUBJECT1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT2</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">LOCLINK1</meta>
-		<meta property="meta-auth" refines="#subject-2">LOCLINK2</meta>
-		<meta property="se:subject">TAG</meta>
+		<dc:subject id="subject-1">Logic, Symbolic and mathematical</dc:subject>
+		<dc:subject id="subject-2">Language and languages -- Philosophy</dc:subject>
+		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/5740</meta>
+		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/5740</meta>
+		<meta property="se:subject">Philosophy</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
@@ -46,35 +46,40 @@
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.218527</dc:source>
 		<meta property="se:production-notes">The highly idiosyncratic numbering system in this work poses a special challenge to markup and CSS. Because some subitems are 0-indexed and others not, we can't use CSS counters. Ideally we would mark things up semantically in a series of nested `ol` and `li` elements; but without modern CSS like CSS grids, positioning the numbers becomes impossible. (epub cannot use position: abolute; and Kindle does not support display: table;) Ideally we might give each `li` element a `data-index` attribute containing the decimal string, and fill a ::before element with that value. But, at the time of ebook production, Kindle doesn't support attr() CSS. So, we use a plain table, for the time being.
 
-		The notation for equations posed a considerable problem. Wittgenstein's notation is unlike modern notation, and thus it was difficult to attempt to give semantice MathML meaning to the underlying equations. Thus, they have been rendered in presentational MathML. Semantic grouping has been attempted with `mrow` elements but these should not be considered authoritative, or even correct. Regardless of the underlying semantics, the MathML should render identically.</meta>
+		The notation for equations posed a considerable problem. Wittgenstein's notation is unlike modern notation, and thus it was difficult to attempt to give semantice MathML meaning to the underlying equations. Thus, they have been rendered in presentational MathML. Semantic grouping has been attempted with `mrow` elements but these should not be considered authoritative, or even correct. Regardless of the underlying semantics, the MathML should render identically. This page was helpful: https://www.researchgate.net/publication/267638339_Wittgenstein's_Tractatus_logico-philosophicus_glossary_of_mathematical_and_logical_symbols</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ludwig-wittgenstein_tractatus-logico-philosophicus_c-k-ogden</meta>
 		<dc:creator id="author">Ludwig Wittgenstein</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Wittgenstein, Ludwig</meta>
+		<meta property="se:name.person.full-name" refines="#author">Ludwig Josef Johann Wittgenstein</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ludwig_Wittgenstein</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">AUTHORNACOAFLINK</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79032058</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="translator">C. K. Ogden</dc:contributor>
-		<meta property="file-as" refines="#translator">TRANSLATORSORT</meta>
+		<meta property="file-as" refines="#translator">Ogden, C. K.</meta>
+		<meta property="se:name.person.full-name" refines="#translator">Charles Kay Ogden</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/C._K._Ogden</meta>
-		<meta property="se:url.authority.nacoaf" refines="#translator">TRANSLATORNACOAFLINK</meta>
+		<meta property="se:url.authority.nacoaf" refines="#translator">https://id.loc.gov/authorities/names/n50028715</meta>
 		<meta property="display-seq" refines="#translator">1</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
+		<dc:contributor id="author-of-introduction">Bertrand Russell</dc:contributor>
+		<meta property="file-as" refines="#author-of-introduction">Russsell, Bertrand</meta>
+		<meta property="se:name.person.full-name" refines="#translator">Bertrand Arthur William Russell, 3rd Earl Russell</meta>
+		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">COVERARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">LINK</meta>
+		<dc:contributor id="transcriber-1">Kevin C. Klement</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Klement, Kevin C.</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
