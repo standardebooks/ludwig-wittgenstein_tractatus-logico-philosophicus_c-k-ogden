@@ -56,7 +56,9 @@
 		<meta property="se:name.person.full-name" refines="#author">Ludwig Josef Johann Wittgenstein</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ludwig_Wittgenstein</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n79032058</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
+		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="translator">C. K. Ogden</dc:contributor>
 		<meta property="file-as" refines="#translator">Ogden, C. K.</meta>
 		<meta property="se:name.person.full-name" refines="#translator">Charles Kay Ogden</meta>
