@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="160" version="1.1" viewBox="0 0 200 160" width="200">
+	<title>The propositions TpF and TqF, connected by brackets above and below; F is connected from above, and T from below.</title>
+	<path d="m4.8034 67.247c5.3825-17.729 19.147-29.284 34.885-29.284h52.809c4.1204 0 7.4246-3.9614 7.4246-8.9012 0 4.9398 3.3042 8.9012 7.4246 8.9012h51.137c15.737 0 29.502 11.555 34.885 29.284" fill="none" stroke="#000" stroke-width="1.5"/>
+	<path d="m9.2409 67.247c4.9184-8.4213 12.711-13.285 21.287-13.285l37.123-5.95e-4c4.1203 0 7.4246-3.9614 7.4246-8.9012 0 4.9398 3.3042 8.9012 7.4246 8.9012h52.975c8.5755 0 16.368 4.8636 21.287 13.285" fill="none" stroke="#000" stroke-width="1.5"/>
+	<path d="m193 90.137c-5.3825 17.729-19.147 29.284-34.885 29.284h-11.137c-4.1204 0-7.4246 3.9614-7.4246 8.9012 0-4.9398-3.3042-8.9012-7.4246-8.9012h-55.685c-15.737 0-29.502-11.555-34.885-29.284" fill="none" stroke="#000" stroke-width="1.5"/>
+	<path d="m44.508 90.137c4.9184 8.4213 12.711 13.285 21.287 13.285l37.123 6e-4c4.1204 0 7.4246 3.9614 7.4246 8.9012 0-4.9398 3.3042-8.9012 7.4246-8.9012h18.562c8.5755 0 16.368-4.8636 21.287-13.285" fill="none" stroke="#000" stroke-width="1.5"/>
+	<text font-family="serif" font-size="16px" x="1.4646474" y="83.150421">T</text>
+	<text font-family="serif" font-size="16px" font-style="italic" x="19.866581" y="82.56926">p</text>
+	<text font-family="serif" font-size="16px" x="37.424763" y="83.150421">F</text>
+	<text font-family="serif" font-size="16px" x="151.98929" y="83.150421">T</text>
+	<text font-family="serif" font-size="16px" font-style="italic" x="170.19939" y="82.56926">q</text>
+	<text font-family="serif" font-size="16px" x="187.94942" y="83.150421">F</text>
+	<path d="m99.921 29.062 13.16-15.125" fill="none" stroke="#000" stroke-width="1.5"/>
+	<text font-family="serif" font-size="16px" x="112.6357" y="11.664015">F</text>
+	<path d="m110.34 112.32 14.318 31.868" fill="none" stroke="#000" stroke-width="1.5"/>
+	<path d="m75.075 45.06 44.181 99.132" fill="none" stroke="#000" stroke-width="1.5"/>
+	<path d="m139.56 128.32-11.154 15.87" fill="none" stroke="#000" stroke-width="1.5"/>
+	<text font-family="serif" font-size="16px" x="119.24469" y="160.00005">T</text>
+</svg>

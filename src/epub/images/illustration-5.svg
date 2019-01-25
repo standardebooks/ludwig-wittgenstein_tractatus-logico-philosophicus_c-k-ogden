@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="81" version="1.1" viewBox="0 0 56 81" width="56">
+	<title>The proposition T ξ F, with T connected from above and F from below.</title>
+	<text font-family="serif" font-size="16px" x="6.7824745" y="12.136115">T</text>
+	<text font-family="serif" font-size="16px" x="-0.74609375" y="45.798828">“T ξ F”</text>
+	<text font-family="serif" font-size="16px" x="36.486179" y="80.527962">F</text>
+	<path d="m12.149 12.898 29.926 19.951" fill="none" stroke="#000" stroke-width="1.5"/>
+	<path d="m12.023 47.811 29.926 19.95" fill="none" stroke="#000" stroke-width="1.5"/>
+</svg>

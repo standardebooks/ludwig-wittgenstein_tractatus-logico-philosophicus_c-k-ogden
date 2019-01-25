@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="231.25" version="1.1" viewBox="0 0 173.13 231.25" width="173.13">
+	<title>The previous three figures merged.</title>
+	<path d="m166.28 102.6c-0.61049-18.518-10.915-33.242-26.117-37.315l-10.758-2.8825c-3.98-1.0664-6.1463-5.748-4.8678-10.52-1.2785 4.7715-5.4954 7.7427-9.4754 6.6763l-53.788-14.412c-15.201-4.073-31.487 3.5256-41.276 19.257" fill="none" stroke="#000" stroke-width="1.5"/>
+	<path d="m22.845 64.164c6.9304-6.8614 15.716-9.5425 24-7.3228l35.858 9.6076c3.98 1.0664 8.1969-1.9048 9.4754-6.6763-1.2785 4.7715 0.88781 9.4531 4.8678 10.52l17.93 4.8042c8.2833 2.2195 14.551 8.9342 17.123 18.342" fill="none" stroke="#000" stroke-width="1.5"/>
+	<path d="m166.28 118.87c-0.6105 18.518-10.915 33.242-26.117 37.315l-10.758 2.8825c-3.98 1.0664-6.1463 5.748-4.8678 10.52-1.2785-4.7715-5.4954-7.7427-9.4754-6.6763l-53.788 14.412c-15.201 4.073-31.487-3.5256-41.276-19.257" fill="none" stroke="#000" stroke-width="1.5"/>
+	<path d="m22.845 157.3c6.9304 6.8614 15.716 9.5425 24 7.3228l35.858-9.6076c3.98-1.0664 8.1969 1.9048 9.4754 6.6763-1.2785-4.7715 0.88781-9.4531 4.8678-10.52l17.93-4.8042c8.2833-2.2195 14.551-8.9342 17.123-18.342" fill="none" stroke="#000" stroke-width="1.5"/>
+	<text font-family="serif" font-size="16px" x="-0.15625037" y="115.20689">T</text>
+	<text font-family="serif" font-size="16px" font-style="italic" x="18.053846" y="114.62571">q</text>
+	<text font-family="serif" font-size="16px" x="35.803879" y="115.20689">F</text>
+	<text font-family="serif" font-size="16px" x="126.74417" y="116.57554">T</text>
+	<text font-family="serif" font-size="16px" font-style="italic" x="145.1461" y="115.99436">p</text>
+	<text font-family="serif" font-size="16px" x="162.70428" y="116.57554">F</text>
+	<text font-family="serif" font-size="16px" x="11.969917" y="78.839241">T</text>
+	<text font-family="serif" font-size="16px" x="16.069023" y="153.59048">F</text>
+	<path d="m4.9187 118.32 16.319 20.867" fill="none" stroke="#000" stroke-width="1.4438"/>
+	<path d="m21.397 80.756 16.319 20.867" fill="none" stroke="#000" stroke-width="1.4438"/>
+	<path d="m92.179 59.772 9.9821-16.185" fill="none" stroke="#000" stroke-width="1.5"/>
+	<text font-family="serif" font-size="16px" x="100.99216" y="44.367771">T</text>
+	<path d="m110.93 29.961 9.9821-16.185" fill="none" stroke="#000" stroke-width="1.5"/>
+	<text font-family="serif" font-size="16px" x="120.49609" y="11.664067">F</text>
+	<text font-family="serif" font-size="16px" x="120.49609" y="199.17361">F</text>
+	<path d="m124.54 169.58 0.10185 14.162" fill="none" stroke="#000" stroke-width="1.5"/>
+	<path d="m92.179 161.69c5.5074 12.389 14.839 20.087 26.397 22.055" fill="none" stroke="#000" stroke-width="1.5"/>
+	<path d="m124.54 51.879c-22.662 43.499-14.901 87.703-2.6761 131.87" fill="none" stroke="#000" stroke-width="1.5"/>
+	<path d="m128.3 201.68 9.0914 15.152" fill="none" stroke="#000" stroke-width="1.5"/>
+	<text font-family="serif" font-size="16px" x="133.94838" y="231.24597">T</text>
+</svg>

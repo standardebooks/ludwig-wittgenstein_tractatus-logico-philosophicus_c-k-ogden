@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" height="100" version="1.1" viewBox="0 0 100 100" width="100">
 	<title>An outline of a cube, with the letter a next to the four points closest to the viewer, and the letter b next to the four points furthest from the viewer.</title>
-	<path d="m11.057 38.489v53.012h53.012v-53.012zm1.0645 1.0645h50.883v50.883h-50.883z"/>
-	<path d="m37.568 11.979v53.012h53.012v-53.012zm1.0645 1.0645h50.883v50.883h-50.883z"/>
-	<path d="m37.724 12.136-26.51 26.51 0.75139 0.75139 26.51-26.51z"/>
-	<path d="m89.672 12.136-26.51 26.51 0.7514 0.75139 26.51-26.51z"/>
-	<path d="m89.672 64.083-26.51 26.51 0.7514 0.75139 26.51-26.51z"/>
-	<path d="m37.724 64.083-26.51 26.51 0.75139 0.75139 26.51-26.51z"/>
-	<text font-style="italic" x="0.61995298" y="41.217438">a</text>
-	<text font-style="italic" x="2.2725437" y="98.567665">a</text>
-	<text font-style="italic" x="62.994152" y="99.799805">a</text>
-	<text font-style="italic" x="55.95396" y="36.438072">a</text>
-	<text font-style="italic" x="30.433287" y="10.741345">b</text>
-	<text font-style="italic" x="89.173973" y="10.934843">b</text>
-	<text font-style="italic" x="90.75798" y="71.83242">b</text>
-	<text font-style="italic" x="38.28825" y="77.557915">b</text>
+	<path d="m12.5 37.503v49.997h49.997v-49.997zm1.004 1.004h47.989v47.989h-47.989z" stroke-width=".94312"/>
+	<path d="m37.503 12.5v49.997h49.997v-49.997zm1.004 1.004h47.989v47.989h-47.989z" stroke-width=".94312"/>
+	<path d="m37.65 12.649-25.002 25.002 0.70865 0.70865 25.002-25.002z" stroke-width=".94312"/>
+	<path d="m86.644 12.649-25.002 25.002 0.70866 0.70865 25.002-25.002z" stroke-width=".94312"/>
+	<path d="m86.644 61.641-25.002 25.002 0.70866 0.70865 25.002-25.002z" stroke-width=".94312"/>
+	<path d="m37.65 61.641-25.002 25.002 0.70865 0.70865 25.002-25.002z" stroke-width=".94312"/>
+	<text font-family="serif" font-size="16px" font-style="italic" x="2.7173035" y="38.221222">a</text>
+	<text font-family="serif" font-size="16px" font-style="italic" x="2.2725437" y="96.020882">a</text>
+	<text font-family="serif" font-size="16px" font-style="italic" x="61.046612" y="97.10321">a</text>
+	<text font-family="serif" font-size="16px" font-style="italic" x="54.306042" y="35.239586">a</text>
+	<text font-family="serif" font-size="16px" font-style="italic" x="28.785368" y="13.288128">b</text>
+	<text font-family="serif" font-size="16px" font-style="italic" x="87.825676" y="13.931058">b</text>
+	<text font-family="serif" font-size="16px" font-style="italic" x="88.510818" y="68.536583">b</text>
+	<text font-family="serif" font-size="16px" font-style="italic" x="36.939953" y="75.909996">b</text>
 </svg>
