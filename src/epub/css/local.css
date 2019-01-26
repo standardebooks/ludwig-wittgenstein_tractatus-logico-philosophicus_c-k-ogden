@@ -65,47 +65,50 @@ td{
 	vertical-align: top;
 }
 
+body > table > tbody > tr > td:first-child{
+	padding-right: .5em;
+}
+
 table h2,
 table h3{
 	margin: 0;
 	font-size: 1em;
-	margin-right: 1em;
 	text-align: right;
 }
 
-.truth-tables table{
+figure{
+	text-align: center;
+}
+
+figure > p{
+	text-indent: 0;
+}
+
+figure table{
 	border-collapse: collapse;
 	display: inline-block;
-	margin-top: 1em;
+	text-align: left;
 	vertical-align: top;
 }
 
-.truth-tables table thead td{
+figure table + table{
+	margin-left: 1em;
+}
+
+figure table.truth-table thead td{
 	border-bottom: 2px solid;
 	font-style: italic;
 }
 
-.truth-tables table td{
+figure table.truth-table td{
 	padding: .25em;
 	text-align: center;
 }
 
-.truth-tables table td + td{
+figure table.truth-table td + td{
 	border-left: 1px solid;
 }
 
-.truth-tables table tr + tr td{
+figure table.truth-table tr + tr td{
 	border-top: 1px solid;
-}
-
-.truth-tables table + table{
-	margin-left: 1em;
-}
-
-div{
-	text-align: center;
-}
-
-div > p{
-	text-indent: 0;
 }
