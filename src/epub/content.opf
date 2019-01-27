@@ -35,10 +35,14 @@
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/5740</meta>
 		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/5740</meta>
 		<meta property="se:subject">Philosophy</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">One of the most important texts of 20th century philosophy, exploring the nature of the universe, language, understanding, and logical atomism.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONGDESCRIPTION
+			&lt;p&gt;Ludwig Wittgenstein is considered by many to be one of the most important philosophers of the 20th century. He was born in Vienna to an incredibly rich family, but he gave away his inheritance and spent his life alternating between academia and various other roles, including serving as an officer during World War I and a hospital porter during World War II. When in academia Wittgenstein was taught by Bertrand Russell, and himself taught at Cambridge.&lt;/p&gt;
+			&lt;p&gt;His &lt;i&gt;Tractatus Logico-Philosophicus&lt;/i&gt; has since come to be considered one of the most important works of 20th century philosophy. After publishing it, Wittgenstein concluded that it had solved all philosophical problems—so he never published another book-length work in his lifetime.&lt;/p&gt;
+			&lt;p&gt;The book itself is divided into a series of short, self-evident statements, followed by sub-statements elucidating on their parent statement, sub-sub-statements, and so on. These statements explore the nature of the universe, our understanding of the world around us, and how language fits in to it all. These views later came to be known as “Logical Atomism.”&lt;/p&gt;
+			&lt;p&gt;This translation, while credited to C. K. Ogden, is actually mostly the work of F. P. Ramsey, one of Ogden’s students. Ramsey completed the translation when he was just 19 years of age. The translation was personally revised and approved by Wittgenstein himself, who, while Austrian, had spent much of his life in England.&lt;/p&gt;
+			&lt;p&gt;Much of the &lt;i&gt;Tractatus&lt;/i&gt;’ meaning is complex and difficult to unpack. It is still being interpreted and explored to this day.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
