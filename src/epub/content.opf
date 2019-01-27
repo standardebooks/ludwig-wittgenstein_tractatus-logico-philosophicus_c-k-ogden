@@ -44,9 +44,9 @@
 		<dc:language>en-GB</dc:language>
 		<dc:source>http://people.umass.edu/klement/tlp/tlp.html</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.218527</dc:source>
-		<meta property="se:production-notes">The highly idiosyncratic numbering system in this work poses a special challenge to markup and CSS. Because some subitems are 0-indexed and others not, we can't use CSS counters. Ideally we would mark things up semantically in a series of nested `ol` and `li` elements; but without modern CSS like CSS grids, positioning the numbers becomes impossible. (epub cannot use position: abolute; and Kindle does not support display: table;) Ideally we might give each `li` element a `data-index` attribute containing the decimal string, and fill a ::before element with that value. But, at the time of ebook production, Kindle doesn't support attr() CSS. So, we use a plain table, for the time being.
+		<meta property="se:production-notes">The highly idiosyncratic numbering system in this work poses a special challenge to markup and CSS. Because some subitems are 0-indexed and others not, we can't use CSS counters. Ideally we would mark things up semantically in a series of nested `ol` and `li` elements; but without modern CSS like CSS grids, positioning the numbers becomes impossible. (epub cannot use `position: absolute;` and Kindle does not support `display: table;`). Ideally we might give each `li` element a `data-index` attribute containing the decimal string, and fill a `::before` element with that value. But, at the time of ebook production, Kindle doesn't support `attr()` CSS. So, we use a plain table, for the time being.
 
-		The notation for equations posed a considerable problem. Wittgenstein's notation is unlike modern notation, and thus it was difficult to attempt to give semantice MathML meaning to the underlying equations. Thus, they have been rendered in presentational MathML. Semantic grouping has been attempted with `mrow` elements but these should not be considered authoritative, or even correct. Regardless of the underlying semantics, the MathML should render identically. This page was helpful: https://www.researchgate.net/publication/267638339_Wittgenstein's_Tractatus_logico-philosophicus_glossary_of_mathematical_and_logical_symbols</meta>
+		The notation for equations posed a considerable problem. Wittgenstein's notation is unlike modern notation, and thus it was difficult to attempt to give semantic MathML meaning to the underlying equations. Thus, they have been rendered in presentational MathML (vs. content MathML). Semantic grouping has been attempted with `mrow` elements but these should not be considered authoritative, or even correct. Regardless of the underlying semantics, the MathML should render identically. This page was helpful: https://www.researchgate.net/publication/267638339_Wittgenstein's_Tractatus_logico-philosophicus_glossary_of_mathematical_and_logical_symbols</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus</meta>
@@ -71,10 +71,11 @@
 		<meta property="file-as" refines="#author-of-introduction">Russsell, Bertrand</meta>
 		<meta property="se:name.person.full-name" refines="#translator">Bertrand Arthur William Russell, 3rd Earl Russell</meta>
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">win</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<dc:contributor id="artist">Francis Picabia</dc:contributor>
+		<meta property="file-as" refines="#artist">Picabia, Francis</meta>
+		<meta property="se:name.person.full-name" refines="#artist">Francis-Marie Martinez de Picabia</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Francis_Picabia</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n50019704</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Kevin C. Klement</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Klement, Kevin C.</meta>
