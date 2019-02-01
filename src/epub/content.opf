@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/ludwig-wittgenstein/tractatus-logico-philosophicus/c-k-ogden</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:revision-number">0</meta>
+		<dc:date>2019-02-01T04:32:21Z</dc:date>
+		<meta property="dcterms:modified">2019-02-01T04:32:21Z</meta>
+		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -35,13 +35,13 @@
 		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/5740</meta>
 		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/5740</meta>
 		<meta property="se:subject">Philosophy</meta>
-		<dc:description id="description">One of the most important texts of 20th century philosophy, exploring the nature of the universe, language, understanding, and logical atomism.</dc:description>
+		<dc:description id="description">One of the most important texts of 20th century philosophy, in which the nature of the philosphy, language, understanding, and logical atomism are explored.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Ludwig Wittgenstein is considered by many to be one of the most important philosophers of the 20th century. He was born in Vienna to an incredibly rich family, but he gave away his inheritance and spent his life alternating between academia and various other roles, including serving as an officer during World War I and a hospital porter during World War II. When in academia Wittgenstein was taught by Bertrand Russell, and himself taught at Cambridge.&lt;/p&gt;
-			&lt;p&gt;His &lt;i&gt;Tractatus Logico-Philosophicus&lt;/i&gt; has since come to be considered one of the most important works of 20th century philosophy. After publishing it, Wittgenstein concluded that it had solved all philosophical problems—so he never published another book-length work in his lifetime.&lt;/p&gt;
-			&lt;p&gt;The book itself is divided into a series of short, self-evident statements, followed by sub-statements elucidating on their parent statement, sub-sub-statements, and so on. These statements explore the nature of the universe, our understanding of the world around us, and how language fits in to it all. These views later came to be known as “Logical Atomism.”&lt;/p&gt;
-			&lt;p&gt;This translation, while credited to C. K. Ogden, is actually mostly the work of F. P. Ramsey, one of Ogden’s students. Ramsey completed the translation when he was just 19 years of age. The translation was personally revised and approved by Wittgenstein himself, who, while Austrian, had spent much of his life in England.&lt;/p&gt;
+			&lt;p&gt;Ludwig Wittgenstein is considered by many to be one of the most important philosophers of the 20th century. He was born in Vienna to an incredibly rich family, but he gave away his inheritance and spent his life alternating between academia and various other roles, including serving as an officer during World War I and a hospital porter during World War II. When in academia Wittgenstein was taught by Bertrand Russell, and he himself taught at Cambridge.&lt;/p&gt;
+			&lt;p&gt;He began laying the groundwork for &lt;i&gt;Tractatus Logico-Philosophicus&lt;/i&gt; while in the trenches, and published it after the end of the war. It has since come to be considered one of the most important works of 20th century philosophy. After publishing it, Wittgenstein concluded that it had solved all philosophical problems—so he never published another book-length work in his lifetime.&lt;/p&gt;
+			&lt;p&gt;The book itself is divided into a series of short, self-evident statements, followed by sub-statements elucidating on their parent statement, sub-sub-statements, and so on. These statements explore the nature of philosophy, our understanding of the world around us, and how language fits in to it all. These views later came to be known as “Logical Atomism.”&lt;/p&gt;
+			&lt;p&gt;This translation, while credited to C. K. Ogden, is actually mostly the work of F. P. Ramsey, one of Ogden’s students. Ramsey completed the translation when he was just 19 years of age. The translation was personally revised and approved by Wittgenstein himself, who, though he was Austrian, had spent much of his life in England.&lt;/p&gt;
 			&lt;p&gt;Much of the &lt;i&gt;Tractatus&lt;/i&gt;’ meaning is complex and difficult to unpack. It is still being interpreted and explored to this day.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
@@ -50,9 +50,11 @@
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.218527</dc:source>
 		<meta property="se:production-notes">The highly idiosyncratic numbering system in this work poses a special challenge to markup and CSS. Because some subitems are 0-indexed and others not, we can't use CSS counters. Ideally we would mark things up semantically in a series of nested `ol` and `li` elements; but without modern CSS like CSS grids, positioning the numbers becomes impossible. (epub cannot use `position: absolute;` and Kindle does not support `display: table;`). Ideally we might give each `li` element a `data-index` attribute containing the decimal string, and fill a `::before` element with that value. But, at the time of ebook production, Kindle doesn't support `attr()` CSS. So, we use a plain table, for the time being.
 
-		The notation for equations posed a considerable problem. Wittgenstein's notation is unlike modern notation, and thus it was difficult to attempt to give semantic MathML meaning to the underlying equations. Thus, they have been rendered in presentational MathML (vs. content MathML). Semantic grouping has been attempted with `mrow` elements but these should not be considered authoritative, or even correct. Regardless of the underlying semantics, the MathML should render identically. This page was helpful: https://www.researchgate.net/publication/267638339_Wittgenstein's_Tractatus_logico-philosophicus_glossary_of_mathematical_and_logical_symbols</meta>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		The notation for equations posed a considerable problem. Wittgenstein's notation is unlike modern notation, and thus it was difficult to attempt to give semantic MathML meaning to the underlying equations. Therefore they have been rendered in presentational MathML (vs. content MathML). Semantic grouping has been attempted with `mrow` elements but these should not be considered authoritative, or even correct. Regardless of the underlying semantics, the MathML should render just as in print. This page was helpful in unpacking the meaning of several of the equations: https://www.researchgate.net/publication/267638339_Wittgenstein's_Tractatus_logico-philosophicus_glossary_of_mathematical_and_logical_symbols
+
+		Punctuation has been left outside of quotation marks in many cases for clarity, even though the SE manual specifies that punctuation goes inside quotation marks. Because many equations and variables are within double quotes, it is more clear to leave grammatical punctuation, which may be confused with logical operators, outside of such quotes.</meta>
+		<meta property="se:word-count">26820</meta>
+		<meta property="se:reading-ease.flesch">53.71</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ludwig-wittgenstein_tractatus-logico-philosophicus_c-k-ogden</meta>
 		<dc:creator id="author">Ludwig Wittgenstein</dc:creator>
