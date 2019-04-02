@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" height="100" version="1.1" viewBox="0 0 200 100" width="200">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 200 100">
 	<title>The propositions TpF and TqF, connected by brackets above and below.</title>
 	<path d="m5.7247 38.555c5.3825-17.729 19.147-29.284 34.885-29.284h92.809c4.1204 0 7.4246-3.9614 7.4246-8.9012 0 4.9398 3.3042 8.9012 7.4246 8.9012h11.137c15.737 0 29.502 11.555 34.885 29.284" fill="none" stroke="#000" stroke-width="1.5"/>
 	<path d="m10.162 38.555c4.9184-8.4213 12.711-13.285 21.287-13.285l37.123-5.94e-4c4.1203 0 7.4246-3.9614 7.4246-8.9012 0 4.9398 3.3042 8.9012 7.4246 8.9012h52.975c8.5755 0 16.368 4.8636 21.287 13.285" fill="none" stroke="#000" stroke-width="1.5"/>

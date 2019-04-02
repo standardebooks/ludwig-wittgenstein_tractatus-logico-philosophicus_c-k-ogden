@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" height="100" version="1.1" viewBox="0 0 100 100" width="100">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100">
 	<title>An outline of a cube, with the letter a next to the four points closest to the viewer, and the letter b next to the four points furthest from the viewer.</title>
 	<path d="m12.5 37.503v49.997h49.997v-49.997zm1.004 1.004h47.989v47.989h-47.989z" stroke-width=".94312"/>
 	<path d="m37.503 12.5v49.997h49.997v-49.997zm1.004 1.004h47.989v47.989h-47.989z" stroke-width=".94312"/>

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" height="27.433" version="1.1" viewBox="0 0 174.05 27.433" width="174.05">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 175 28">
 	<title>Three dashes, followed by a circle, followed by a long line that ends in an X; the same is horizontally mirrored and repeated; below the first long line is an “a,” and below the second long line is a “b.”</title>
-	<path d="m20 3.5947h8" fill="none" stroke="#000" stroke-width="1.5"/>
-	<path d="m10 3.5947h8" fill="none" stroke="#000" stroke-width="1.5"/>
-	<path d="m0 3.5947h8" fill="none" stroke="#000" stroke-width="1.5"/>
-	<path d="m156.05 3.5947h8" fill="none" stroke="#000" stroke-width="1.5"/>
-	<path d="m146.05 3.5947h8" fill="none" stroke="#000" stroke-width="1.5"/>
-	<path d="m166.05 3.5947h8" fill="none" stroke="#000" stroke-width="1.5"/>
-	<path d="m65.583 3.5947h-30" fill="none" stroke="#000" stroke-width="1.5"/>
-	<circle cx="32.616" cy="3.5947" fill="none" r="2.7148" stroke="#000" stroke-width="1.5" style="font-variant-east_asian:normal"/>
-	<path d="m66.287 0.50109 5.5558 6.1872" fill="none" stroke="#000" stroke-width="1.5"/>
-	<path d="m71.843 0.50109-5.5558 6.1872" fill="none" stroke="#000" stroke-width="1.5"/>
-	<path d="m98.398 3.5947h30" fill="none" stroke="#000" stroke-width="1.5"/>
-	<path d="m136.05 3.5947h8" fill="none" stroke="#000" stroke-width="1.5"/>
-	<path d="m97.694 0.50109-5.5558 6.1872" fill="none" stroke="#000" stroke-width="1.5"/>
-	<path d="m92.138 0.50109 5.5558 6.1872" fill="none" stroke="#000" stroke-width="1.5"/>
-	<path d="m82.687 3.5947h8" fill="none" stroke="#000" stroke-width="1.5"/>
-	<path d="m72.687 3.5947h8" fill="none" stroke="#000" stroke-width="1.5"/>
-	<text font-family="serif" font-size="16px" font-style="italic" x="44.067905" y="27.131134">a</text>
-	<text font-family="serif" font-size="16px" font-style="italic" x="106.87933" y="27.131134">b</text>
-	<circle cx="131.37" cy="3.5947" fill="none" r="2.7148" stroke="#000" stroke-width="1.5"/>
+	<path d="m20.109 3.6147h8.0437" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<path d="m10.055 3.6147h8.0437" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<path d="m0 3.6147h8.0437" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<path d="m156.9 3.6147h8.0437" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<path d="m146.85 3.6147h8.0437" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<path d="m166.96 3.6147h8.0437" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<path d="m65.941 3.6147h-30.164" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<circle cx="32.794" cy="3.6147" fill="none" r="2.7296" stroke="#000" stroke-width="1.5082"/>
+	<path d="m66.649 0.5042 5.5861 6.221" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<path d="m72.235 0.5042-5.5861 6.221" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<path d="m98.935 3.6147h30.164" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<path d="m136.79 3.6147h8.0437" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<path d="m98.227 0.5042-5.5861 6.221" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<path d="m92.641 0.5042 5.5861 6.221" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<path d="m83.138 3.6147h8.0437" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<path d="m73.084 3.6147h8.0437" fill="none" stroke="#000" stroke-width="1.5082"/>
+	<text font-family="serif" font-size="16px" font-style="italic" x="44.067905" y="27.773438">a</text>
+	<text font-family="serif" font-size="16px" font-style="italic" x="106.87933" y="27.773438">b</text>
+	<circle cx="132.09" cy="3.6147" fill="none" r="2.7296" stroke="#000" stroke-width="1.5082"/>
 </svg>
