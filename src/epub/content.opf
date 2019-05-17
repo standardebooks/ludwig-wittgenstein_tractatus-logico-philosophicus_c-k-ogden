@@ -26,16 +26,17 @@
 		<meta property="schema:accessibilityFeature">tableOfContents</meta>
 		<meta property="schema:accessibilityHazard">none</meta>
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.0 Level AA.</meta>
-		<link href="onix.xml" rel="onix-record"/>
+		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Tractatus Logico-Philosophicus</dc:title>
 		<meta property="file-as" refines="#title">Tractatus Logico-Philosophicus</meta>
 		<dc:subject id="subject-1">Logic, Symbolic and mathematical</dc:subject>
 		<dc:subject id="subject-2">Language and languages -- Philosophy</dc:subject>
-		<meta property="meta-auth" refines="#subject-1">https://www.gutenberg.org/ebooks/5740</meta>
-		<meta property="meta-auth" refines="#subject-2">https://www.gutenberg.org/ebooks/5740</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
+		<meta property="term" refines="#subject-1">sh85078115</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
+		<meta property="term" refines="#subject-2">sh85074574</meta>
 		<meta property="se:subject">Philosophy</meta>
 		<dc:description id="description">One of the most important texts of 20th century philosophy, in which the nature of the philosphy, language, understanding, and logical atomism are explored.</dc:description>
-		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Ludwig Wittgenstein is considered by many to be one of the most important philosophers of the 20th century. He was born in Vienna to an incredibly rich family, but he gave away his inheritance and spent his life alternating between academia and various other roles, including serving as an officer during World War I and a hospital porter during World War II. When in academia Wittgenstein was taught by Bertrand Russell, and he himself taught at Cambridge.&lt;/p&gt;
 			&lt;p&gt;He began laying the groundwork for &lt;i&gt;Tractatus Logico-Philosophicus&lt;/i&gt; while in the trenches, and published it after the end of the war. It has since come to be considered one of the most important works of 20th century philosophy. After publishing it, Wittgenstein concluded that it had solved all philosophical problems—so he never published another book-length work in his lifetime.&lt;/p&gt;
@@ -43,7 +44,6 @@
 			&lt;p&gt;This translation, while credited to C. K. Ogden, is actually mostly the work of F. P. Ramsey, one of Ogden’s students. Ramsey completed the translation when he was just 19 years of age. The translation was personally revised and approved by Wittgenstein himself, who, though he was Austrian, had spent much of his life in England.&lt;/p&gt;
 			&lt;p&gt;Much of the &lt;i&gt;Tractatus&lt;/i&gt;’ meaning is complex and difficult to unpack. It is still being interpreted and explored to this day.&lt;/p&gt;
 		</meta>
-		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>http://people.umass.edu/klement/tlp/tlp.html</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.218527</dc:source>
