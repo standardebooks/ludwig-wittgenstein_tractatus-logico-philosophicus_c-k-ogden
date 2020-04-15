@@ -8,10 +8,6 @@
 	</file>
 	<file path="tractatus-logico-philosophicus.xhtml">
 		<ignore>
-			<code>s-021</code>
-			<reason>The &lt;title&gt; tag is accurate; the work title appears in the half title.</reason>
-		</ignore>
-		<ignore>
 			<code>t-002</code>
 			<reason>Punctuation is deliberately placed outside of quotes in this ebook to prevent confusion with mathematical symbols and formulas.</reason>
 		</ignore>
