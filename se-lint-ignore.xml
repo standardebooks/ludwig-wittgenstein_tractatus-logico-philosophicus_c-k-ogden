@@ -9,5 +9,9 @@
 			<code>t-042</code>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
+		<ignore>
+			<code>c-014</code>
+			<reason>The table as used does not require margins.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
