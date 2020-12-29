@@ -41,7 +41,7 @@ section[epub|type~="epigraph"] > *{
 	margin: auto;
 	margin-top: 3em;
 	max-width: 80%;
-	text-align: left;
+	text-align: initial;
 }
 
 @supports(display: flex){
@@ -99,7 +99,7 @@ figure > p{
 figure table{
 	border-collapse: collapse;
 	display: inline-block;
-	text-align: left;
+	text-align: initial;
 	vertical-align: top;
 }
 
