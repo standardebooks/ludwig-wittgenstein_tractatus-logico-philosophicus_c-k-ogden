@@ -52,7 +52,7 @@
 		The notation for equations posed a considerable problem. Wittgenstein's notation is unlike modern notation, and thus it was difficult to attempt to give semantic MathML meaning to the underlying equations. Therefore they have been rendered in presentational MathML (vs. content MathML). Semantic grouping has been attempted with `mrow` elements but these should not be considered authoritative, or even correct. Regardless of the underlying semantics, the MathML should render just as in print. This page was helpful in unpacking the meaning of several of the equations: https://www.researchgate.net/publication/267638339_Wittgenstein's_Tractatus_logico-philosophicus_glossary_of_mathematical_and_logical_symbols
 
 		Punctuation has been left outside of quotation marks in many cases for clarity, even though the SE manual specifies that punctuation goes inside quotation marks. Because many equations and variables are within double quotes, it is more clear to leave grammatical punctuation, which may be confused with logical operators, outside of such quotes.</meta>
-		<meta property="se:word-count">26066</meta>
+		<meta property="se:word-count">26065</meta>
 		<meta property="se:reading-ease.flesch">53.61</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Tractatus_Logico-Philosophicus</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ludwig-wittgenstein_tractatus-logico-philosophicus_c-k-ogden</meta>
