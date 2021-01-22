@@ -88,10 +88,6 @@ figure img{
 	max-width: 100%;
 }
 
-figure + p{
-	text-indent: 0;
-}
-
 figure > p{
 	text-indent: 0;
 }
