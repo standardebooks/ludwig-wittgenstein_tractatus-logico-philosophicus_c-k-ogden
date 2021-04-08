@@ -143,3 +143,7 @@ figure table.truth-table td + td{
 figure table.truth-table tr + tr td{
 	border-top: 1px solid;
 }
+
+#introduction ol{
+	list-style-type: lower-alpha;
+}
