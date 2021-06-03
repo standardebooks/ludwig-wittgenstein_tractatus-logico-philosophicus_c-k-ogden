@@ -13,5 +13,9 @@
 			<code>c-014</code>
 			<reason>The table as used does not require margins.</reason>
 		</ignore>
+		<ignore>
+			<code>s-085</code>
+			<reason>The tabular structure of the work prevents correct nesting of sections, and thus headers.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
