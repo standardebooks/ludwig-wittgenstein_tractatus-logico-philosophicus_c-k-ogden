@@ -92,8 +92,8 @@ body > section > table > tbody > tr > td:first-child{
 
 table h2,
 table h3{
-	margin: 0;
 	font-size: 1em;
+	margin: 0;
 	text-align: right;
 }
 
