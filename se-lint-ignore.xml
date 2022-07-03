@@ -17,5 +17,9 @@
 			<code>s-085</code>
 			<reason>The tabular structure of the work prevents correct nesting of sections, and thus headers.</reason>
 		</ignore>
+		<ignore>
+			<code>x-019</code>
+			<reason>IDs are unique to this ebook's style.</reason>
+		</ignore>
 	</file>
 </se-lint-ignore>
