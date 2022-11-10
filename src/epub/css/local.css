@@ -99,7 +99,7 @@ table h3{
 
 figure{
 	break-inside: avoid;
-	margin: 1em auto;
+	margin: 1em 40px;
 	text-align: center;
 }
 
