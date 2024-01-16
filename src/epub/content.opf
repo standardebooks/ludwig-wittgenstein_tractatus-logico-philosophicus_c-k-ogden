@@ -75,6 +75,8 @@
 		<dc:contributor id="author-of-introduction">Bertrand Russell</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Russell, Bertrand</meta>
 		<meta property="se:name.person.full-name" refines="#author-of-introduction">Bertrand Arthur William Russell, 3rd Earl Russell</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author-of-introduction">https://en.wikipedia.org/wiki/Bertrand_Russell</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author-of-introduction">http://id.loc.gov/authorities/names/n79056054</meta>
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Francis Picabia</dc:contributor>
 		<meta property="file-as" refines="#artist">Picabia, Francis</meta>
