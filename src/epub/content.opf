@@ -39,7 +39,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85074574</meta>
 		<meta property="se:subject">Philosophy</meta>
-		<dc:description id="description">One of the most important texts of 20th century philosophy, in which the nature of the philosphy, language, understanding, and logical atomism are explored.</dc:description>
+		<dc:description id="description">One of the most important texts of 20th century philosophy, in which the nature of the philosophy, language, understanding, and logical atomism are explored.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/ludwig-wittgenstein"&gt;Ludwig Wittgenstein&lt;/a&gt; is considered by many to be one of the most important philosophers of the 20th century. He was born in Vienna to an incredibly rich family, but he gave away his inheritance and spent his life alternating between academia and various other roles, including serving as an officer during World War I and a hospital porter during World War II. When in academia Wittgenstein was taught by Bertrand Russell, and he himself taught at Cambridge.&lt;/p&gt;
 			&lt;p&gt;He began laying the groundwork for &lt;i&gt;Tractatus Logico-Philosophicus&lt;/i&gt; while in the trenches, and published it after the end of the war. It has since come to be considered one of the most important works of 20th century philosophy. After publishing it, Wittgenstein concluded that it had solved all philosophical problems—so he never published another book-length work in his lifetime.&lt;/p&gt;
