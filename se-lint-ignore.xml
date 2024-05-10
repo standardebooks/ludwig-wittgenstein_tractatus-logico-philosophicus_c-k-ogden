@@ -6,10 +6,6 @@
 			<reason>Punctuation is deliberately placed outside of quotes in this ebook to prevent confusion with mathematical symbols and formulas.</reason>
 		</ignore>
 		<ignore>
-			<code>y-016</code>
-			<reason>Matched text is not a typo.</reason>
-		</ignore>
-		<ignore>
 			<code>y-020</code>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
