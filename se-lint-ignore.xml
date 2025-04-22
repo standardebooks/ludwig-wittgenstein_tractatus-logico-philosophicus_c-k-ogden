@@ -22,4 +22,10 @@
 			<reason>IDs are unique to this ebook's style.</reason>
 		</ignore>
 	</file>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>y-034</code>
+			<reason>Matched text is part of a formula.</reason>
+		</ignore>
+	</file>
 </se-lint-ignore>
