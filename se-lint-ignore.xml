@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>y-034</code>
+			<reason>Matched text is part of a formula.</reason>
+		</ignore>
+	</file>
 	<file path="tractatus-logico-philosophicus.xhtml">
-		<ignore>
-			<code>t-002</code>
-			<reason>Punctuation is deliberately placed outside of quotes in this ebook to prevent confusion with mathematical symbols and formulas.</reason>
-		</ignore>
-		<ignore>
-			<code>y-020</code>
-			<reason>Matched text is not a typo.</reason>
-		</ignore>
 		<ignore>
 			<code>c-014</code>
 			<reason>The table as used does not require margins.</reason>
@@ -18,14 +16,16 @@
 			<reason>The tabular structure of the work prevents correct nesting of sections, and thus headers.</reason>
 		</ignore>
 		<ignore>
+			<code>t-002</code>
+			<reason>Punctuation is deliberately placed outside of quotes in this ebook to prevent confusion with mathematical symbols and formulas.</reason>
+		</ignore>
+		<ignore>
 			<code>x-019</code>
 			<reason>IDs are unique to this ebook's style.</reason>
 		</ignore>
-	</file>
-	<file path="endnotes.xhtml">
 		<ignore>
-			<code>y-034</code>
-			<reason>Matched text is part of a formula.</reason>
+			<code>y-020</code>
+			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>
