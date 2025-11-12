@@ -72,8 +72,8 @@
 		<meta property="se:name.person.full-name" refines="#translator">Charles Kay Ogden</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#translator">https://en.wikipedia.org/wiki/C._K._Ogden</meta>
 		<meta property="se:url.authority.nacoaf" refines="#translator">http://id.loc.gov/authorities/names/n50028715</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="author-of-introduction">Bertrand Russell</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Russell, Bertrand</meta>
 		<meta property="se:name.person.full-name" refines="#author-of-introduction">Bertrand Arthur William Russell, 3rd Earl Russell</meta>
