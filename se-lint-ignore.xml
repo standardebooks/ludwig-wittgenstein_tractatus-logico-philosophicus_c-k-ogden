@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="tractatus-logico-philosophicus.xhtml">
-		<ignore>
-			<code>c-014</code>
+		<ignore code="c-014">
 			<reason>The table as used does not require margins.</reason>
 		</ignore>
-		<ignore>
-			<code>s-085</code>
+		<ignore code="s-085">
 			<reason>The tabular structure of the work prevents correct nesting of sections, and thus headers.</reason>
 		</ignore>
-		<ignore>
-			<code>t-002</code>
+		<ignore code="t-002">
 			<reason>Punctuation is deliberately placed outside of quotes in this ebook to prevent confusion with mathematical symbols and formulas.</reason>
 		</ignore>
-		<ignore>
-			<code>x-019</code>
+		<ignore code="x-019">
 			<reason>IDs are unique to this ebook's style.</reason>
 		</ignore>
-		<ignore>
-			<code>y-020</code>
+		<ignore code="y-020">
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
