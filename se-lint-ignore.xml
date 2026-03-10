@@ -8,12 +8,15 @@
 			<reason>The tabular structure of the work prevents correct nesting of sections, and thus headers.</reason>
 		</ignore>
 		<ignore code="t-002">
+			<line>2284</line>
 			<reason>Punctuation is deliberately placed outside of quotes in this ebook to prevent confusion with mathematical symbols and formulas.</reason>
 		</ignore>
 		<ignore code="x-019">
 			<reason>IDs are unique to this ebook's style.</reason>
 		</ignore>
 		<ignore code="y-020">
+			<line>3603</line>
+			<line>3625</line>
 			<reason>Matched text is not a typo.</reason>
 		</ignore>
 	</file>
