@@ -121,7 +121,8 @@ figure table{
 	vertical-align: top;
 }
 
-figure table td{
+figure table td,
+figure table th{
 	padding: .25em;
 }
 
@@ -129,16 +130,19 @@ figure table + table{
 	margin-left: 1em;
 }
 
-figure table.truth-table thead td{
+figure table.truth-table thead td,
+figure table.truth-table thead th{
 	border-bottom: 2px solid;
 	font-style: italic;
+	font-weight: normal;
 }
 
 figure table.truth-table td{
 	text-align: center;
 }
 
-figure table.truth-table td + td{
+figure table.truth-table td + td,
+figure table.truth-table th + th{
 	border-left: 1px solid;
 }
 
