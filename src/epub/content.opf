@@ -34,7 +34,7 @@
 		<dc:title id="title">Tractatus Logico-Philosophicus</dc:title>
 		<meta property="file-as" refines="#title">Tractatus Logico-Philosophicus</meta>
 		<dc:subject id="subject-1">Logic, Symbolic and mathematical</dc:subject>
-		<dc:subject id="subject-2">Language and languages -- Philosophy</dc:subject>
+		<dc:subject id="subject-2">Language and languages--Philosophy</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85078115</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
