@@ -75,7 +75,7 @@
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
 		<dc:contributor id="author-of-introduction">Bertrand Russell</dc:contributor>
 		<meta property="file-as" refines="#author-of-introduction">Russell, Bertrand</meta>
-		<meta property="schema:alternateName" refines="#author-of-introduction">Bertrand Arthur William Russell, 3rd Earl Russell</meta>
+		<meta property="schema:alternateName" refines="#author-of-introduction">Bertrand Arthur William Russell</meta>
 		<link href="https://en.wikipedia.org/wiki/Bertrand_Russell" refines="#author-of-introduction" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79056054.html" refines="#author-of-introduction" rel="schema:sameAs"/>
 		<meta property="role" refines="#author-of-introduction" scheme="marc:relators">win</meta>
