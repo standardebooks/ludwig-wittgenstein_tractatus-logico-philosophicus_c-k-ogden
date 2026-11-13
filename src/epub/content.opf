@@ -69,7 +69,7 @@
 		<dc:contributor id="translator">C. K. Ogden</dc:contributor>
 		<meta property="file-as" refines="#translator">Ogden, C. K.</meta>
 		<meta property="schema:alternateName" refines="#translator">Charles Kay Ogden</meta>
-		<link href="https://en.wikipedia.org/wiki/C._K._Ogden" refines="#translator" rel="schema:sameAs"/>
+		<link href="https://en.wikipedia.org/wiki/Charles_Kay_Ogden" refines="#translator" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n50028715.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
